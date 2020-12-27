@@ -1,0 +1,21 @@
+.sections{
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    cursor: pointer;
+    padding: 15px;
+    border-width: 0 !important;
+    color: gray;
+}
+.selection-selected{
+    background-color: whitesmoke;
+    border-width: 3px !important;
+}
+.sections:hover{
+    background-color: whitesmoke;
+    border-width: 3px !important;
+}
+.sections>h4{
+    font-size: 14px;
+    margin-left: 15px;
+}
